@@ -1,0 +1,120 @@
+# ============================================
+# Careers Page Content
+# ============================================
+
+hero:
+  tagline: "Careers"
+  title_prefix: "Build the Future of"
+  title_highlight: "Semiconductor Technology"
+  description: >-
+    Join a fast-growing team pushing the boundaries of atomic-scale manufacturing.
+    We're hiring engineers, scientists, and business professionals in
+    Singapore and the United States.
+
+values:
+  section_title: "Our DNA"
+  items:
+    - icon: "Lightbulb"
+      name: "Agility"
+      description: "We move fast, adapt quickly, and embrace change in a dynamic industry."
+    - icon: "Target"
+      name: "Achievement"
+      description: "We set ambitious goals and deliver results that move the industry forward."
+    - icon: "HeartHandshake"
+      name: "Tenacity"
+      description: "We persevere through challenges with determination and resilience."
+    - icon: "Users"
+      name: "Collaboration"
+      description: "We build diverse, global teams and learn from each other every day."
+
+positions:
+  section_title: "Open Positions"
+  fallback_message: "Can't find the right role? Send your resume to careers@aatech.sg — we're always looking for exceptional talent."
+  jobs:
+    - title: "Process Engineer — Atomic Layer Etching"
+      department: "Engineering"
+      location: "Singapore / US"
+      type: "Full-time"
+      description: >-
+        Develop and optimize ALE recipes for production applications.
+        Characterize etch performance across materials and geometries.
+        Support customer demonstrations and process transfers.
+      requirements:
+        - "MS/PhD in Chemical Engineering, Materials Science, or Physics"
+        - "Experience with plasma etch or ALD/ALE processes"
+        - "Cleanroom experience required"
+        - "Strong data analysis skills"
+
+    - title: "Mechanical Design Engineer"
+      department: "Engineering"
+      location: "Singapore"
+      type: "Full-time"
+      description: >-
+        Design chamber components, gas delivery assemblies, and fixture tooling
+        for our ALE platform. Work with cross-functional teams to bring designs
+        from concept to production.
+      requirements:
+        - "BS/MS in Mechanical Engineering"
+        - "CAD/CAM expertise (SolidWorks preferred)"
+        - "Experience with vacuum system design preferred"
+        - "Knowledge of semiconductor equipment standards"
+
+    - title: "Software Engineer — Equipment Control"
+      department: "Engineering"
+      location: "Singapore / Remote"
+      type: "Full-time"
+      description: >-
+        Develop real-time equipment control software, recipe management systems,
+        and data acquisition platforms for our ALE tools.
+      requirements:
+        - "BS in Computer Science or Electrical Engineering"
+        - "Experience with real-time control systems"
+        - "Python and C++ proficiency"
+        - "Semiconductor equipment experience a plus"
+
+    - title: "Field Service Engineer"
+      department: "Service"
+      location: "US / Japan"
+      type: "Full-time"
+      description: >-
+        Install, maintain, and troubleshoot AAT equipment at customer fab sites.
+        Provide technical support and training to customers.
+      requirements:
+        - "BS in Electrical or Mechanical Engineering"
+        - "Hands-on semiconductor equipment experience"
+        - "Willingness to travel 50%+"
+        - "Strong communication skills"
+
+    - title: "Technical Sales Manager — Asia Pacific"
+      department: "Sales"
+      location: "Singapore / Taiwan / South Korea"
+      type: "Full-time"
+      description: >-
+        Drive revenue growth across the Asia Pacific region. Manage key accounts
+        at leading memory and logic fabs. Lead technical presentations and demonstrations.
+      requirements:
+        - "BS/MS in Engineering + 5 years semiconductor equipment sales"
+        - "Existing relationships with memory/logic fabs preferred"
+        - "Strong technical presentation skills"
+        - "Fluency in English; Mandarin or Korean a plus"
+
+    - title: "Research Intern — Plasma Processing"
+      department: "R&D"
+      location: "Singapore"
+      type: "Internship (3-6 months)"
+      description: >-
+        Support R&D projects in ALE process development. Gain hands-on experience
+        with cutting-edge semiconductor processing technology.
+      requirements:
+        - "Currently pursuing MS/PhD in relevant field"
+        - "Strong experimental and analytical skills"
+        - "Interest in semiconductor manufacturing"
+        - "Self-motivated with good documentation habits"
+
+  apply_email: "careers@aatech.sg"
+
+chat_cta:
+  title: "Have Questions About Working at AAT?"
+  description: >-
+    Click the chat bubble in the bottom right to talk to our AI careers assistant.
+    Ask about open roles, company culture, benefits, or the application process.

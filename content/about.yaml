@@ -1,0 +1,81 @@
+# ============================================
+# About Page Content
+# ============================================
+
+hero:
+  tagline: "About Us"
+  title_prefix: "Your Innovative Partner in"
+  title_highlight: "Advancing Semiconductor Manufacturing Technology"
+  description: >-
+    Applied Angstrom Technology develops and delivers atomic level precision process
+    and equipment for the semiconductor industry. Our vision: become the leading
+    technology provider in the Angstrom Era.
+
+mission:
+  title: "Our Mission"
+  text: >-
+    To develop and deliver atomic level precision process and equipment that
+    enable our customers to manufacture the most advanced semiconductor devices.
+    We bridge the gap between laboratory-demonstrated atomic-scale control and
+    production-ready throughput.
+
+vision:
+  title: "Our Vision"
+  text: >-
+    To become the leading technology provider in the Angstrom Era — where
+    semiconductor manufacturing operates at the scale of individual atoms,
+    and every atomic layer matters.
+
+milestones:
+  - year: "2023"
+    event: "Applied Angstrom Technology established in Singapore"
+  - year: "2024"
+    event: "ALE tool platform development and Demo Lab Set up"
+  - year: "2025"
+    event: "Built up class 100 cleanroom space for assembly and manufacturing"
+  - year: "2026"
+    event: "Production-ready ALE platform for Fab TD"
+
+values:
+  section_title: "The AAT Values"
+  items:
+    - letter: "A"
+      name: "Agility"
+      description: >-
+        We move fast, adapt quickly, and embrace change. In a rapidly evolving
+        semiconductor landscape, speed is a competitive advantage.
+    - letter: "A"
+      name: "Achievement"
+      description: >-
+        We set ambitious goals and deliver results. From first-of-kind
+        demonstrations to production-ready solutions, we make it happen.
+    - letter: "T"
+      name: "Tenacity"
+      description: >-
+        We persevere through challenges with determination. Atomic-scale
+        engineering is hard — we embrace the difficulty and push through.
+
+offices:
+  section_title: "Global Presence"
+  section_subtitle: "Serving the world's leading semiconductor manufacturers"
+  items:
+    - city: "Singapore"
+      role: "Global Headquarters"
+      detail: "Corporate office, R&D center, main engineering team"
+    - city: "United States"
+      role: "Business Development"
+      detail: "Strategic partnerships, market development"
+
+contact:
+  section_title: "Get in Touch"
+  section_subtitle: "Ready to discuss how our ALE solutions can address your etch challenges?"
+  sales:
+    title: "Sales & Technical Inquiries"
+    email: "info@aatech.sg"
+  careers:
+    title: "Careers"
+    email: "careers@aatech.sg"
+  website:
+    title: "Website"
+    url: "https://aatech.sg"
+    label: "aatech.sg"

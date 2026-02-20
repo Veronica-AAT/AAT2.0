@@ -1,0 +1,106 @@
+# ============================================
+# Products Page Content
+# ============================================
+
+hero:
+  tagline: "Products"
+  title_prefix: "Precision Equipment for the"
+  title_highlight: "Angstrom Era"
+  description: >-
+    From atomic layer etching to gas delivery and plasma sources — integrated
+    solutions for next-generation semiconductor manufacturing.
+
+products:
+  - id: "ale"
+    icon: "Atom"
+    name: "Atomic Layer Etching Tool"
+    tagline: "Bridging atomic precision with production throughput"
+    description: >-
+      Our flagship ALE platform delivers self-limiting etch chemistry for the most
+      demanding semiconductor manufacturing processes. Supports thermal ALE, plasma
+      ALE, and cryogenic ALE modes in a single, production-ready system.
+    features:
+      - "Self-limiting etch per cycle: 0.3-1.0 nm/cycle"
+      - "Thermal, plasma, and cryogenic ALE modes"
+      - "Aspect ratios >100:1 with <0.1% CD variation"
+      - "Multi-material capability (Si, SiO₂, SiN, HfO₂, metals, III-Vs)"
+      - "Hybrid ALE/RIE mode for production throughput"
+      - "AI-assisted digital twin for process optimization"
+      - "Compatible with 200mm and 300mm wafers"
+    specs:
+      - { label: "Etch Per Cycle", value: "0.3-1.0 nm" }
+      - { label: "Temperature Range", value: "-110°C to +400°C" }
+      - { label: "Plasma Source", value: "ICP + CCP dual mode" }
+      - { label: "Gas Channels", value: "12+ independent lines" }
+      - { label: "Wafer Size", value: "200mm / 300mm" }
+      - { label: "Uniformity", value: "<1% (1σ)" }
+
+  - id: "gas"
+    icon: "Wind"
+    name: "Gas Delivery System"
+    tagline: "Ultra-high-purity gas delivery for atomic-scale processes"
+    description: >-
+      Precision gas delivery engineered for ALE, ALD, CVD, and advanced etch processes.
+      Sub-millisecond valve switching ensures sharp transitions between ALE half-cycles,
+      critical for self-limiting chemistry.
+    features:
+      - "Sub-millisecond gas switching (<0.5 ms)"
+      - "Multi-zone temperature control (ambient to 200°C)"
+      - "Compatible with corrosive and pyrophoric gases"
+      - "12+ independent gas lines per module"
+      - "Fast-switching piezo and pneumatic valves"
+      - "Integrated mass flow controllers (MFC) with ±0.5% accuracy"
+      - "Modular design for easy line reconfiguration"
+    specs:
+      - { label: "Switching Speed", value: "<0.5 ms" }
+      - { label: "MFC Accuracy", value: "±0.5%" }
+      - { label: "Gas Lines", value: "12+ per module" }
+      - { label: "Temperature Control", value: "Ambient to 200°C" }
+      - { label: "Materials", value: "EP 316L SS, Hastelloy" }
+      - { label: "Leak Rate", value: "<1×10⁻⁹ atm·cc/s" }
+
+  - id: "rps"
+    icon: "Zap"
+    name: "Remote Plasma Source"
+    tagline: "High-density radical generation for downstream processing"
+    description: >-
+      Compact, high-efficiency remote plasma source generating abundant reactive
+      radicals with minimal ion flux at the substrate. Ideal for the removal step
+      in plasma ALE, chamber cleaning, and surface conditioning.
+    features:
+      - "Dissociation efficiency >90% for common process gases"
+      - "Low ion flux at substrate position"
+      - "Compact footprint for integration with existing chambers"
+      - "NF₃, O₂, N₂, H₂, Ar compatible"
+      - "Sapphire discharge tube for chemical resistance"
+      - "RF power: 0.5-6 kW scalable"
+      - "Proven reliability: >10,000 hour MTBF"
+    specs:
+      - { label: "Dissociation Rate", value: ">90%" }
+      - { label: "RF Power", value: "0.5-6 kW" }
+      - { label: "Frequency", value: "2.45 GHz / 13.56 MHz" }
+      - { label: "MTBF", value: ">10,000 hours" }
+      - { label: "Discharge Tube", value: "Sapphire" }
+      - { label: "Process Gases", value: "NF₃, O₂, N₂, H₂, Ar" }
+
+  - id: "pil"
+    icon: "Droplets"
+    name: "Plasma-in-Liquid Coating"
+    tagline: "Novel coating technology for advanced materials"
+    description: >-
+      Innovative plasma-in-liquid technology for nanoparticle synthesis, surface
+      functionalization, and thin-film deposition on complex 3D structures. Enables
+      uniform coatings on substrates that are difficult to process with conventional
+      vacuum techniques.
+    features:
+      - "Nanoparticle synthesis and surface functionalization"
+      - "Uniform coating on complex 3D geometries"
+      - "Room-temperature processing capability"
+      - "Compatible with diverse substrate materials"
+      - "Scalable from R&D to production volumes"
+      - "Applications: batteries, catalysts, biomedical"
+    specs:
+      - { label: "Coating Uniformity", value: "<5% (1σ)" }
+      - { label: "Processing Temp", value: "Room temp to 80°C" }
+      - { label: "Particle Size", value: "2-100 nm controllable" }
+      - { label: "Throughput", value: "Batch or continuous" }

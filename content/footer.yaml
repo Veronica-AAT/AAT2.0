@@ -1,0 +1,28 @@
+# ============================================
+# Footer Content
+# ============================================
+
+brand:
+  name: "Applied Angstrom Technology"
+  tagline: >-
+    Precision Meets Innovation. Your strategic partner in semiconductor
+    manufacturing at the atomic scale.
+  email: "info@aatech.sg"
+  linkedin: "https://www.linkedin.com/company/applied-angstrom-technology"
+
+technology_links:
+  - { label: "Atomic Layer Etching", href: "/technology/ale" }
+  - { label: "Gas Delivery System", href: "/products" }
+  - { label: "Remote Plasma Source", href: "/products" }
+  - { label: "Plasma-in-Liquid Coating", href: "/products" }
+
+company_links:
+  - { label: "About Us", href: "/about" }
+  - { label: "Careers", href: "/careers" }
+  - { label: "Contact", href: "/about#contact" }
+
+offices:
+  - { city: "Singapore", role: "Headquarters" }
+  - { city: "United States", role: "Business Development" }
+
+copyright_entity: "Applied Angstrom Technology Pte. Ltd."

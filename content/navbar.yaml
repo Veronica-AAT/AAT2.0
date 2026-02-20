@@ -1,0 +1,27 @@
+# ============================================
+# Navbar Content
+# ============================================
+
+brand:
+  short: "AA"
+  name: "Applied Angstrom"
+  accent: "Technology"
+
+navigation:
+  - name: "Home"
+    href: "/"
+  - name: "Technology"
+    href: "/technology"
+    children:
+      - { name: "Overview", href: "/technology" }
+      - { name: "Atomic Layer Etching", href: "/technology/ale" }
+  - name: "Products"
+    href: "/products"
+  - name: "Careers"
+    href: "/careers"
+  - name: "About"
+    href: "/about"
+
+cta:
+  label: "Contact Us"
+  href: "/about#contact"

@@ -1,0 +1,109 @@
+# ============================================
+# Technology Page Content
+# ============================================
+
+hero:
+  tagline: "Technology"
+  title_prefix: "Semiconductor Processing at the"
+  title_highlight: "Atomic Scale"
+  description: >-
+    Applied Angstrom Technology pushes the boundaries of semiconductor etch
+    technology. Our platform combines atomic layer etching, precision gas delivery,
+    and advanced plasma sources to meet the demands of next-generation device
+    architectures.
+
+capabilities:
+  section_title: "Core Capabilities"
+  section_subtitle: "Six pillars of our atomic-scale etch technology platform"
+  items:
+    - icon: "Layers"
+      title: "Self-Limiting Chemistry"
+      description: >-
+        Each ALE cycle consists of two half-reactions that saturate at exactly one
+        atomic layer. This self-limitation is the fundamental mechanism that enables
+        atomic-scale precision independent of feature geometry.
+    - icon: "Thermometer"
+      title: "Thermal & Plasma Modes"
+      description: >-
+        Thermal ALE uses sequential gas-phase reactions for isotropic removal.
+        Plasma ALE adds directional ion bombardment for anisotropic etching.
+        Both modes achieve sub-nanometer etch per cycle control.
+    - icon: "Atom"
+      title: "Cryogenic ALE"
+      description: >-
+        At -60 to -110°C, reactive gases physisorb in self-limiting monolayers.
+        Combined with pulsed plasma, cryogenic ALE achieves <0.1% CD deviation
+        in 3D NAND channel holes up to 10µm deep.
+    - icon: "Target"
+      title: "ARDE Elimination"
+      description: >-
+        Conventional RIE loses >98% of etchant flux at 100:1 aspect ratio.
+        ALE converts flux-dependent etching to dose-dependent etching, making
+        etch per cycle independent of feature depth.
+    - icon: "Shield"
+      title: "Material Selectivity"
+      description: >-
+        Self-limiting surface chemistry enables selectivity >100:1 between
+        adjacent materials. Critical for GAA nanosheet release (SiGe vs Si)
+        and multilayer NAND structures.
+    - icon: "Zap"
+      title: "Production Throughput"
+      description: >-
+        Hybrid ALE/RIE modes use ALE for critical atomic-layer steps and fast
+        continuous etching for bulk removal. Pulsed plasma approaches achieve
+        near-continuous throughput with ALE precision.
+
+ale_steps:
+  section_title: "How Atomic Layer Etching Works"
+  steps:
+    - number: 1
+      title: "Surface Modification"
+      color: "accent"
+      description: >-
+        A reactive gas (e.g., Cl₂ for silicon, HF for metal oxides) is introduced
+        and reacts with only the top atomic layer of the surface. The reaction
+        self-terminates once the surface is fully modified — no matter how long
+        the exposure continues.
+    - number: 2
+      title: "Purge"
+      color: "primary"
+      description: >-
+        The chamber is purged with inert gas (Ar or N₂) to remove all unreacted
+        modification species and volatile byproducts. This prevents uncontrolled
+        etching and ensures clean separation between half-cycles.
+    - number: 3
+      title: "Removal"
+      color: "accent"
+      description: >-
+        The modified surface layer is removed by either low-energy ion bombardment
+        (plasma ALE) or a second chemical reaction (thermal ALE via ligand exchange).
+        Only the modified layer is removed — the underlying material is untouched.
+    - number: 4
+      title: "Repeat"
+      color: "primary"
+      description: >-
+        The cycle repeats. Each cycle removes exactly one atomic layer (typically
+        0.3-1.0 nm). The total etch depth equals the number of cycles multiplied
+        by the etch per cycle — digital, deterministic control at the atomic scale.
+
+materials:
+  section_title: "Supported Materials"
+  section_subtitle: "ALE chemistry is available for a wide range of semiconductor-relevant materials"
+  note: "EPC = Etch Per Cycle. Actual values depend on process conditions."
+  table:
+    - { material: "Silicon (Si)", mode: "Plasma", chemistry: "Cl₂ / Ar⁺", epc: "0.3-0.5" }
+    - { material: "SiO₂", mode: "Plasma / Cryo", chemistry: "C₄F₈ / Ar⁺", epc: "0.3-0.8" }
+    - { material: "Si₃N₄", mode: "Plasma", chemistry: "CHF₃ / Ar⁺", epc: "0.3-0.6" }
+    - { material: "HfO₂", mode: "Thermal", chemistry: "HF / DMAC", epc: "0.5-0.6" }
+    - { material: "Al₂O₃", mode: "Thermal", chemistry: "HF / TMA", epc: "0.6-1.0" }
+    - { material: "TiN", mode: "Plasma", chemistry: "Cl₂ / Ar⁺", epc: "0.3-0.5" }
+    - { material: "GaN", mode: "Plasma", chemistry: "Cl₂ / Ar⁺", epc: "0.3-0.4" }
+    - { material: "W", mode: "Plasma", chemistry: "O₂ / BCl₃", epc: "0.4-0.7" }
+
+cta:
+  title: "Dive Deeper into ALE"
+  description: >-
+    Explore our comprehensive technical guide to atomic layer etching — mechanisms,
+    materials, cryogenic ALE, and production applications.
+  label: "ALE Technology Deep Dive"
+  href: "/technology/ale"

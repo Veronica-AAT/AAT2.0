@@ -1,0 +1,147 @@
+# ============================================
+# Homepage Content — edit text here, not in code
+# ============================================
+
+hero:
+  tagline: "Precision Meets Innovation"
+  title_prefix: "Atomic-Scale Precision for"
+  title_highlight: "Next-Generation"
+  title_suffix: "Semiconductors"
+  description: >-
+    Applied Angstrom Technology develops and delivers atomic layer etching
+    solutions that enable the most demanding semiconductor manufacturing
+    processes — from 3D NAND beyond 400 layers to sub-3nm gate-all-around
+    transistors.
+  cta_primary:
+    label: "Explore ALE Technology"
+    href: "/technology/ale"
+  cta_secondary:
+    label: "Contact Sales"
+    href: "/about#contact"
+
+stats:
+  - value: "<0.1%"
+    label: "CD deviation in 10µm deep features"
+  - value: "100:1+"
+    label: "Aspect ratio capability"
+  - value: "0.3–1.0 nm"
+    label: "Etch per cycle precision"
+  - value: ">90%"
+    label: "Radical dissociation efficiency"
+
+products:
+  section_title: "Products &"
+  section_title_highlight: "Technology"
+  section_subtitle: "Comprehensive solutions for atomic-scale semiconductor processing"
+  items:
+    - name: "Atomic Layer Etching"
+      icon: "Atom"
+      description: >-
+        Revolutionary ALE tool bridging atomic-scale precision with production throughput.
+        Self-limiting chemistry eliminates ARDE for features beyond 100:1 aspect ratio.
+      href: "/technology/ale"
+      highlight: true
+    - name: "Gas Delivery System"
+      icon: "Wind"
+      description: >-
+        Ultra-high-purity gas delivery with sub-millisecond switching.
+        Multi-zone temperature control for corrosive and pyrophoric chemistries.
+      href: "/products"
+      highlight: false
+    - name: "Remote Plasma Source"
+      icon: "Zap"
+      description: >-
+        High-density radical generation with >90% dissociation efficiency.
+        Low ion flux for damage-free ALE removal steps and chamber cleaning.
+      href: "/products"
+      highlight: false
+    - name: "Plasma-in-Liquid Coating"
+      icon: "Droplets"
+      description: >-
+        Novel coating technology for nanoparticle synthesis, surface functionalization,
+        and uniform thin-film deposition on complex 3D structures.
+      href: "/products"
+      highlight: false
+
+ale_animation:
+  section_title: "The ALE"
+  section_title_highlight: "Cycle"
+  section_title_suffix: "— Live Animation"
+  section_subtitle: "Watch the self-limiting etch process in action — each cycle removes exactly one atomic layer"
+
+why_ale:
+  tagline: "The Angstrom Era"
+  title_prefix: "Why"
+  title_highlight: "Atomic Layer Etching"
+  title_suffix: "Matters"
+  paragraphs:
+    - >-
+      As semiconductor devices scale to sub-3nm nodes and 3D NAND exceeds 400
+      layers, conventional reactive ion etching cannot deliver the required
+      atomic-scale precision. Aspect ratio dependent etching (ARDE) causes
+      rate variation in deep, narrow features — degrading the uniformity that
+      advanced devices demand.
+    - >-
+      ALE solves this fundamentally. By decomposing the etch into self-limiting
+      half-reactions, each cycle removes exactly one atomic layer regardless of
+      feature depth. The etch amount depends on dose, not flux — eliminating
+      ARDE at aspect ratios beyond 100:1.
+    - >-
+      The ALE equipment market is projected to grow from $1.36B in 2025 to
+      $2.74B by 2033, driven by 3D NAND scaling and gate-all-around transistor
+      adoption.
+  cta:
+    label: "Deep Dive: ALE Technology"
+    href: "/technology/ale"
+  comparison:
+    title: "ALE vs Conventional RIE"
+    rows:
+      - metric: "Etch control"
+        rie: "Rate-based"
+        ale: "Self-limiting"
+      - metric: "ARDE at 100:1 AR"
+        rie: ">35% variation"
+        ale: "<0.1% deviation"
+      - metric: "Precision"
+        rie: "~nm/s rates"
+        ale: "0.3-1.0 nm/cycle"
+      - metric: "Selectivity"
+        rie: "Material-dependent"
+        ale: ">100:1 achievable"
+      - metric: "Surface damage"
+        rie: "Significant"
+        ale: "Minimal (low-energy)"
+
+applications:
+  section_title: "Enabling"
+  section_title_highlight: "Advanced Applications"
+  section_subtitle: >-
+    From memory to logic to advanced packaging — our solutions address the most
+    critical etch challenges in semiconductor manufacturing.
+  items:
+    - name: "3D NAND Flash"
+      icon: "MemoryStick"
+      detail: "Channel holes at 100:1+ aspect ratio for 400-1000 layer devices"
+    - name: "Gate-All-Around (GAA)"
+      icon: "Cpu"
+      detail: "SiGe-selective ALE for nanosheet release in sub-3nm logic nodes"
+    - name: "FinFET & DRAM"
+      icon: "CircuitBoard"
+      detail: "Precise gate, spacer, and high-AR capacitor etching with atomic uniformity"
+    - name: "Advanced Packaging"
+      icon: "Factory"
+      detail: "TSV etching and hybrid bonding surface preparation at scale"
+
+cta:
+  title_prefix: "Ready to Explore"
+  title_highlight: "Atomic-Scale Precision"
+  title_suffix: "?"
+  description: >-
+    Talk to our AI assistant or connect with our engineering team to discuss
+    how ALE can solve your toughest etch challenges.
+  cta_primary:
+    label: "Contact Our Team"
+    href: "/about#contact"
+  cta_secondary:
+    label: "Join Us"
+    href: "/careers"
