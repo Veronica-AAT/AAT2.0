@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="mailto:info@aatech.sg" className="hover:text-accent transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/company/applied-angstrom-technology" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/aatechsg" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
