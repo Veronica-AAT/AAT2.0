@@ -30,11 +30,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              AA
+              AAT
             </div>
             <div>
-              <span className="text-white font-bold text-lg">Applied Angstrom</span>
-              <span className="text-accent font-bold text-lg ml-1">Technology</span>
+              <span className="text-white font-bold text-lg">Applied Angstrom Technology</span>
+              <span className="text-accent font-bold text-lg ml-1"></span>
             </div>
           </Link>
 

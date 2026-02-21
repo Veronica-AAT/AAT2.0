@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                AA
+                AAT
               </div>
               <span className="text-white font-bold">Applied Angstrom Technology</span>
             </div>
