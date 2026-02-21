@@ -1,41 +1,53 @@
 import { NextRequest, NextResponse } from "next/server";
 import { CUSTOMER_AGENT_PROMPT, RECRUITMENT_AGENT_PROMPT, ROUTER_PROMPT } from "@/lib/agents";
 
-const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "llama3";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 
 type ChatMessage = {
   role: "user" | "assistant" | "system";
   content: string;
 };
 
-async function ollamaChat(
-  model: string,
+async function geminiChat(
   systemPrompt: string,
   messages: ChatMessage[]
 ): Promise<string> {
-  const ollamaMessages = [
-    { role: "system" as const, content: systemPrompt },
-    ...messages.map((m) => ({ role: m.role, content: m.content })),
+  if (!GEMINI_API_KEY) {
+    throw new Error("GEMINI_API_KEY is not configured");
+  }
+
+  const contents = [
+    {
+      role: "user",
+      parts: [{ text: systemPrompt }],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Understood. I will follow these instructions." }],
+    },
+    ...messages.map((m) => ({
+      role: m.role === "assistant" ? "model" : "user",
+      parts: [{ text: m.content }],
+    })),
   ];
 
-  const res = await fetch(`${OLLAMA_URL}/api/chat`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model,
-      messages: ollamaMessages,
-      stream: false,
-    }),
-  });
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ contents }),
+    }
+  );
 
   if (!res.ok) {
     const errorText = await res.text();
-    throw new Error(`Ollama error (${res.status}): ${errorText}`);
+    throw new Error(`Gemini API error (${res.status}): ${errorText}`);
   }
 
   const data = await res.json();
-  return data.message?.content || "";
+  return data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 }
 
 export async function POST(req: NextRequest) {
@@ -54,8 +66,7 @@ export async function POST(req: NextRequest) {
 
     if (!agentMode) {
       // Use router to classify intent
-      const classification = await ollamaChat(
-        OLLAMA_MODEL,
+      const classification = await geminiChat(
         ROUTER_PROMPT,
         [{ role: "user", content: messages[messages.length - 1].content }]
       );
@@ -69,9 +80,8 @@ export async function POST(req: NextRequest) {
     const systemPrompt =
       agentMode === "recruitment" ? RECRUITMENT_AGENT_PROMPT : CUSTOMER_AGENT_PROMPT;
 
-    // Call Ollama with the selected agent
-    const text = await ollamaChat(
-      OLLAMA_MODEL,
+    // Call Gemini with the selected agent
+    const text = await geminiChat(
       systemPrompt,
       messages.map((m) => ({ role: m.role, content: m.content }))
     );
@@ -82,11 +92,11 @@ export async function POST(req: NextRequest) {
 
     const message = error instanceof Error ? error.message : "Unknown error";
 
-    if (message.includes("ECONNREFUSED") || message.includes("fetch failed")) {
+    if (message.includes("GEMINI_API_KEY")) {
       return NextResponse.json(
         {
           response:
-            "Cannot connect to Ollama. Please make sure Ollama is running (run 'ollama serve' in a terminal). Contact info@aatech.sg for assistance.",
+            "AI service is not configured. Please set the GEMINI_API_KEY environment variable. Contact info@aatech.sg for assistance.",
         },
         { status: 200 }
       );
