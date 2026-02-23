@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MapPin, Mail, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 const offices = [
   { city: "Singapore", role: "Headquarters" },
@@ -14,9 +15,15 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                AAT
-              </div>
+              <Link href="/" className="flex items-center gap-3">
+                <Image
+                  src="/logo.png"
+                  alt="AAT Logo"
+                  width={40}
+                  height={40}
+                className="object-contain"
+              />
+              </Link>
               <span className="text-white font-bold">Applied Angstrom Technology</span>
             </div>
             <p className="text-sm mb-4">

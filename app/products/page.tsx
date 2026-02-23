@@ -64,27 +64,6 @@ export default function ProductsPage() {
                     ))}
                   </ul>
                 </div>
-
-                <div className="bg-gray-50 rounded-2xl p-6">
-                  <h3 className="font-bold text-lg mb-4 text-dark">Technical Specifications</h3>
-                  <div className="space-y-3">
-                    {product.specs.map((spec) => (
-                      <div
-                        key={spec.label}
-                        className="flex justify-between items-center border-b border-gray-200 pb-2"
-                      >
-                        <span className="text-gray-500 text-sm">{spec.label}</span>
-                        <span className="font-semibold text-sm text-dark">{spec.value}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <Link
-                    href="/about#contact"
-                    className="btn-primary w-full justify-center mt-6 !text-sm"
-                  >
-                    Request Detailed Specifications <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
-                </div>
               </div>
             );
           })}

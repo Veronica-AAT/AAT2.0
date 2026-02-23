@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -29,13 +30,16 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              AAT
-            </div>
-            <div>
-              <span className="text-white font-bold text-lg">Applied Angstrom Technology</span>
-              <span className="text-accent font-bold text-lg ml-1"></span>
-            </div>
+            <Image
+               src="/logo.png"
+               alt="AAT Logo"
+               width={50}
+               height={50}
+             className="object-contain"
+           />
+           <div>
+             <span className="text-white font-bold text-lg">Applied Angstrom Technology</span>
+           </div>
           </Link>
 
           {/* Desktop nav */}
