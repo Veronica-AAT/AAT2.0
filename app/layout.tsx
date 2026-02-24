@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Applied Angstrom Technology | Precision Meets Innovation",
   description:
-    "Leading semiconductor equipment manufacturer specializing in atomic layer etching, gas delivery systems, and remote plasma sources for advanced semiconductor nodes.",
+    "Leading semiconductor equipment manufacturer specializing in atomic layer etching, gas delivery systems for advanced semiconductor nodes.",
   keywords: [
     "atomic layer etching",
     "ALE",
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     "FinFET",
     "GAA",
     "gas delivery",
-    "remote plasma source",
   ],
 };
 

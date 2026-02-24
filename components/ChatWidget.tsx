@@ -33,7 +33,7 @@ export default function ChatWidget() {
     setAgentMode(mode);
     const greeting =
       mode === "customer"
-        ? "Hello! I'm AAT's technology assistant. I can help you learn about our atomic layer etching solutions, gas delivery systems, remote plasma sources, and other semiconductor processing technologies. What would you like to know?"
+        ? "Hello! I'm AAT's technology assistant. I can help you learn about our atomic layer etching solutions, gas delivery systems, and other semiconductor processing technologies. What would you like to know?"
         : "Hi there! I'm AAT's careers assistant. I can tell you about open positions, our company culture, benefits, and the application process. How can I help you today?";
     setMessages([{ role: "assistant", content: greeting }]);
   };

@@ -13,7 +13,6 @@ brand:
 technology_links:
   - { label: "Atomic Layer Etching", href: "/technology/ale" }
   - { label: "Gas Delivery System", href: "/products" }
-  - { label: "Remote Plasma Source", href: "/products" }
   - { label: "Plasma-in-Liquid Coating", href: "/products" }
 
 company_links:

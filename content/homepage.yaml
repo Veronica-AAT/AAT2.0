@@ -48,13 +48,6 @@ products:
         Multi-zone temperature control for corrosive and pyrophoric chemistries.
       href: "/products"
       highlight: false
-    - name: "Remote Plasma Source"
-      icon: "Zap"
-      description: >-
-        High-density radical generation with >90% dissociation efficiency.
-        Low ion flux for damage-free ALE removal steps and chamber cleaning.
-      href: "/products"
-      highlight: false
     - name: "Plasma-in-Liquid Coating"
       icon: "Droplets"
       description: >-

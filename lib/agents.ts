@@ -42,14 +42,7 @@ Precision gas delivery for atomic-scale processes.
 - Fast-switching pneumatic and piezo valve technology
 - Supports thermal ALE, plasma ALE, ALD, and CVD processes
 
-### 3. Remote Plasma Source (RPS)
-High-density radical generation for downstream processing.
-- High dissociation efficiency (>90% for common process gases)
-- Low ion flux at substrate — ideal for damage-free ALE removal steps
-- Compact design for integration with existing chambers
-- Applications: chamber cleaning, surface conditioning, ALE removal step
-
-### 4. Plasma-in-Liquid Coating
+### 3. Plasma-in-Liquid Coating
 Novel coating technology for advanced materials.
 - Nanoparticle synthesis and surface functionalization
 - Uniform thin-film deposition on complex 3D structures

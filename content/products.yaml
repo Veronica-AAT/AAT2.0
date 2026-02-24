@@ -59,30 +59,6 @@ products:
       - { label: "Materials", value: "EP 316L SS, Hastelloy" }
       - { label: "Leak Rate", value: "<1×10⁻⁹ atm·cc/s" }
 
-  - id: "rps"
-    icon: "Zap"
-    name: "Remote Plasma Source"
-    tagline: "High-density radical generation for downstream processing"
-    description: >-
-      Compact, high-efficiency remote plasma source generating abundant reactive
-      radicals with minimal ion flux at the substrate. Ideal for the removal step
-      in plasma ALE, chamber cleaning, and surface conditioning.
-    features:
-      - "Dissociation efficiency >90% for common process gases"
-      - "Low ion flux at substrate position"
-      - "Compact footprint for integration with existing chambers"
-      - "NF₃, O₂, N₂, H₂, Ar compatible"
-      - "Sapphire discharge tube for chemical resistance"
-      - "RF power: 0.5-6 kW scalable"
-      - "Proven reliability: >10,000 hour MTBF"
-    specs:
-      - { label: "Dissociation Rate", value: ">90%" }
-      - { label: "RF Power", value: "0.5-6 kW" }
-      - { label: "Frequency", value: "2.45 GHz / 13.56 MHz" }
-      - { label: "MTBF", value: ">10,000 hours" }
-      - { label: "Discharge Tube", value: "Sapphire" }
-      - { label: "Process Gases", value: "NF₃, O₂, N₂, H₂, Ar" }
-
   - id: "pil"
     icon: "Droplets"
     name: "Plasma-in-Liquid Coating"

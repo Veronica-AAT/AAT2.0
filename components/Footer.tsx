@@ -46,7 +46,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/technology/ale" className="hover:text-accent transition-colors">Atomic Layer Etching</Link></li>
               <li><Link href="/products" className="hover:text-accent transition-colors">Gas Delivery System</Link></li>
-              <li><Link href="/products" className="hover:text-accent transition-colors">Remote Plasma Source</Link></li>
               <li><Link href="/products" className="hover:text-accent transition-colors">Plasma-in-Liquid Coating</Link></li>
             </ul>
           </div>
