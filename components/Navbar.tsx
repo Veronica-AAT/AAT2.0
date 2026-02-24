@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
-import logo from "../public/bluelogo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -32,7 +31,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-               src={logo}
+               src="/logoblue.png"
                alt="AAT Logo"
                width={50}
                height={50}

@@ -29,7 +29,7 @@ values:
 
 positions:
   section_title: "Open Positions"
-  fallback_message: "Can't find the right role? Send your resume to @aatech.sg — we're always looking for exceptional talent."
+  fallback_message: "Can't find the right role? Send your resume to hr@aatech.sg — we're always looking for exceptional talent."
   jobs:
     - title: "Electrical Engineer"
       department: "Engineering"
@@ -59,7 +59,7 @@ positions:
 
     - title: "Process Engineer — Atomic Layer Etching"
       department: "Engineering"
-      location: "Singapore / US"
+      location: "Singapore"
       type: "Full-time"
       description: >-
         Develop and optimize ALE recipes for production applications.

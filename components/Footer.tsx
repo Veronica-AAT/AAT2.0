@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { MapPin, Mail, Linkedin } from "lucide-react";
 import Image from "next/image";
-import logo from "../public/bluelogo.png";
 
 const offices = [
   { city: "Singapore", role: "Headquarters" },
@@ -18,7 +17,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Link href="/" className="flex items-center gap-3">
                 <Image
-                  src={logo}
+                  src="/logoblue.png"
                   alt="AAT Logo"
                   width={40}
                   height={40}
