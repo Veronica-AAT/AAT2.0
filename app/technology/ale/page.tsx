@@ -304,20 +304,6 @@ export default function ALEPage() {
               </Link>
             </div>
           </div>
-
-          <h2 className="text-2xl font-bold text-dark border-b-2 border-accent pb-2 mt-12">
-            References
-          </h2>
-
-          <ol className="text-sm space-y-2 text-gray-600">
-            <li>Kanarik, K. J. et al. (2018). Atomic layer etching: Rethinking the art of etch. <em>J. Phys. Chem. Lett.</em>, 9(16), 4814-4821.</li>
-            <li>George, S. M. &amp; Lee, Y. (2016). Prospects for thermal atomic layer etching using sequential, self-limiting fluorination and ligand-exchange reactions. <em>ACS Nano</em>, 10(5), 4889-4894.</li>
-            <li>Huard, C. M. et al. (2017). Atomic layer etching of 3D structures in silicon. <em>J. Vac. Sci. Technol. A</em>, 35(3), 031306.</li>
-            <li>Fischer, A. et al. (2022). Control of etch profiles in HAR holes via precise reactant dosing in thermal ALE. <em>J. Vac. Sci. Technol. A</em>, 40(2), 022603.</li>
-            <li>Antoun, G. et al. (2021). Mechanism understanding in cryo atomic layer etching of SiO₂. <em>Scientific Reports</em>, 11, 22579.</li>
-            <li>Joubert, O. et al. (2023). Neutral transport during etching of high aspect ratio features. <em>J. Vac. Sci. Technol. A</em>, 41(3), 033006.</li>
-            <li>Kim, S. J. et al. (2023). Asynchronously pulsed plasma for HAR nanoscale Si trench etch. <em>ACS Appl. Nano Mater.</em>, 6(12), 10602-10611.</li>
-          </ol>
         </div>
       </article>
     </>
